@@ -38,26 +38,32 @@ The members.js file includes logic to identify which user is logged in. It then 
 
 
 Signup.js
+
 The signup.js file includes logic to validate a new user, and then takes the user data and posts it to the api route that was specified in the back-end. It then updates the html on the page using the signup.html file.
 
 
 Stylesheet
+
 Indicates the style layout for the web page. 
 
 Index.js
+
 Sets up and connects to a database and creates a Sequelize instance.
 
 User.js
+
 Sets up a model for how user information gets input into the database.
 Passport.js
 Sets up the logic and the requirements for the logging in credentials of the user. 
 
 
 Config.json
+
 Setting up a mysql connection .
 
 
 isAuthenticated.js
+
 The isAuthenticated.js file includes the logic to restrict routes based on whether or not someone is logged in. If a user is logged in they are allowed access, if not they are redirected to the login page.
 
 
