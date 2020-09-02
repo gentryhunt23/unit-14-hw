@@ -16,7 +16,7 @@ Html-routes.js
 
 Api-routes.js
 
-- There are 4  api endpoints to “pos”t and to “get.” The endpoints are used to authenticate the login credentials of the user. The first post method checks for valid login credentials, and if the login credentials are validated it sends the user to the members page, else the credentials are invalid. The second post method is used to create login credentials via the sign-in endpoints. The email and password are the keys created on the request.body object. The user is redirected to the login endpoint, and if there is an error, the user will receive an error message. The first get method is used for logout functionality. The user is redirected to the login page. The last get method returns their email and id. If they are not logged in, they will receive an empty object. 
+- There are 4  api endpoints to “post" and to “get”. The endpoints are used to authenticate the login credentials of the user. The first post method checks for valid login credentials, and if the login credentials are validated it sends the user to the members page, else the credentials are invalid. The second post method is used to create login credentials via the sign-in endpoints. The email and password are the keys created on the request.body object. The user is redirected to the login endpoint, and if there is an error, the user will receive an error message. The first get method is used for logout functionality. The user is redirected to the login page. The last get method returns their email and id. If they are not logged in, they will receive an empty object. 
 
 Login.js
 
